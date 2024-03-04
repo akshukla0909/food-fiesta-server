@@ -14,7 +14,7 @@ const morgan = require('morgan');
 
 app.use(cookieParser())
 app.use(cors(
-   { origin : ["http://localhost:5173", 'https://food-fiesta-alpha.vercel.app/'], 
+   { origin : ["http://localhost:5173", 'https://food-fiesta-alpha.vercel.app'], 
     credentials : true
 }
 ))
